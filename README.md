@@ -28,12 +28,12 @@ This driver is written for a specific keyboard(Kreo Hive RGB) with the following
     - `On Fedora: sudo dnf install kernel-devel kernel-headers make gcc`
 
 use `make` command to produce kernel module file
-> my_rgb_driver.ko
+> rgb_driver.ko
 > 
 
 ### Load the Kernel Driver
 
-`sudo insmod my_rgb_driver.ko`
+`sudo insmod rgb_driver.ko`
 
 ### Test it with python script
 
@@ -42,4 +42,4 @@ use `make` command to produce kernel module file
 
 ### To unload
 
-`sudo rmmod my_rgb_driver`
+`sudo rmmod rgb_driver`
